@@ -7,16 +7,14 @@
     <link rel="stylesheet" href="css\style.css">
 </head>
 <body>
-    
-</body>
     <div class="flex-container">
         <div class="container">
     <header>
         <h1>Kalkulator Konversi Suhu</h1>
     </header>
     <main>
-        <div class="content">
         <!-- Form Conten-->
+         <div class="content">
         <section>
             <!--Intruksi -->
             <article>
@@ -29,8 +27,8 @@
                     <label for="input-suhu">Celcius:</label>
                 </div>
                 <textarea id="input-suhu"></textarea>
-                <br><button>konversi</button>
-                <button>reset</button>
+                <br><button onclick="konversicelcius()">konversi</button>
+                <button onclick = "clearAllInputs()">Reset</button>
                 <button>reverse</button>
                 </br>
             </form>
@@ -79,4 +77,5 @@
             Made by Adfa Aditiya
         </p>
     </footer>
+    <script src="js\script.js" id="proses-data"></script>
 </html>
